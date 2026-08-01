@@ -1,7 +1,24 @@
 aid: rensenergy
-name: rensenergy
-description: rensenergy is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rensenergy.png
+name: Rens Energy
+description: Rens Energy is a Shanghai-based distributed energy-storage and energy-management
+  company founded in 2017. It builds distributed energy-storage systems and energy-management
+  software that let customers deliver power and energy-balance scheduling, energy-usage
+  analysis, and energy optimization for efficient operation and asset appreciation
+  of their power assets. It was surfaced as a portfolio company of Qiming Venture Partners
+  and added to the API Evangelist network. Enrichment probing found no public API,
+  developer portal, SDK, or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/rensenergy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Energy
+- Energy Storage
+- Energy Management
+- Distributed Energy
+- China
+- Shanghai
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +46,8 @@ maintainers:
 common:
 - type: Website
   url: https://rensenergy.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
